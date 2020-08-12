@@ -41,3 +41,6 @@ convert $ORIG \
   -set delay 7 \
   -loop 0 \
   $OUTPUT
+
+convert -comment 'Made with intensifier.sh https://github.com/vtbassmatt/intensifier' \
+  $OUTPUT $OUTPUT
